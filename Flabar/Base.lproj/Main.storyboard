@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--Flabar Write View Controller - Item-->
+        <!--Flabar Write View Controller - Write-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="FlabarWriteViewController" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="nhu-bp-9Y1"/>
+                    <tabBarItem key="tabBarItem" title="Write" image="write" id="nhu-bp-9Y1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="273" y="110"/>
         </scene>
-        <!--Flabar View Controller - Item-->
+        <!--Flabar View Controller - View-->
         <scene sceneID="8r5-h7-Jcf">
             <objects>
                 <viewController id="fA6-tH-Ugj" customClass="FlabarViewController" sceneMemberID="viewController">
@@ -55,13 +55,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="2cL-9p-umD"/>
+                    <tabBarItem key="tabBarItem" title="View" image="view" id="2cL-9p-umD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jIe-sF-N94" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="660" y="405"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="view" width="30" height="30"/>
+        <image name="write" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
