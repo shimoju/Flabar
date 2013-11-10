@@ -21,6 +21,7 @@
 		452D0A87182F5E37000A29AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D0A69182F5E37000A29AF /* UIKit.framework */; };
 		452D0A8F182F5E37000A29AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 452D0A8D182F5E37000A29AF /* InfoPlist.strings */; };
 		452D0A91182F5E37000A29AF /* FlabarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452D0A90182F5E37000A29AF /* FlabarTests.m */; };
+		455C02EB182F9481008947D3 /* FlabarWriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455C02EA182F9481008947D3 /* FlabarWriteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		452D0A8C182F5E37000A29AF /* FlabarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlabarTests-Info.plist"; sourceTree = "<group>"; };
 		452D0A8E182F5E37000A29AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		452D0A90182F5E37000A29AF /* FlabarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlabarTests.m; sourceTree = "<group>"; };
+		455C02E9182F9481008947D3 /* FlabarWriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlabarWriteViewController.h; sourceTree = "<group>"; };
+		455C02EA182F9481008947D3 /* FlabarWriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlabarWriteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				452D0A77182F5E37000A29AF /* Main.storyboard */,
 				452D0A7A182F5E37000A29AF /* FlabarViewController.h */,
 				452D0A7B182F5E37000A29AF /* FlabarViewController.m */,
+				455C02E9182F9481008947D3 /* FlabarWriteViewController.h */,
+				455C02EA182F9481008947D3 /* FlabarWriteViewController.m */,
 				452D0A7D182F5E37000A29AF /* Images.xcassets */,
 				452D0A6C182F5E37000A29AF /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455C02EB182F9481008947D3 /* FlabarWriteViewController.m in Sources */,
 				452D0A7C182F5E37000A29AF /* FlabarViewController.m in Sources */,
 				452D0A76182F5E37000A29AF /* FlabarAppDelegate.m in Sources */,
 				452D0A72182F5E37000A29AF /* main.m in Sources */,
@@ -461,6 +467,7 @@
 				452D0A96182F5E37000A29AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		452D0A97182F5E37000A29AF /* Build configuration list for PBXNativeTarget "FlabarTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				452D0A99182F5E37000A29AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

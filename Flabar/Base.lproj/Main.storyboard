@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--Flabar View Controller - Item-->
+        <!--Flabar Write View Controller - Item-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="FlabarViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="FlabarWriteViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bFq-K2-d6l"/>
                         <viewControllerLayoutGuide type="bottom" id="5SS-Fd-Ync"/>
@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="273" y="110"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--Flabar View Controller - Item-->
         <scene sceneID="8r5-h7-Jcf">
             <objects>
-                <viewController id="fA6-tH-Ugj" sceneMemberID="viewController">
+                <viewController id="fA6-tH-Ugj" customClass="FlabarViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4qO-dJ-rxr"/>
                         <viewControllerLayoutGuide type="bottom" id="U8Z-sf-R4K"/>
