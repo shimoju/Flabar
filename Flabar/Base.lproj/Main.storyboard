@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Write" image="write" id="nhu-bp-9Y1"/>
+                    <navigationItem key="navigationItem" title="Write" id="g0l-Od-2bi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="660" y="-242"/>
+            <point key="canvasLocation" x="1022" y="-242"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="32A-r6-QqU">
@@ -34,7 +34,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="z0U-vL-Cdh"/>
+                        <segue destination="p6w-1n-1Oq" kind="relationship" relationship="viewControllers" id="z0U-vL-Cdh"/>
                         <segue destination="fA6-tH-Ugj" kind="relationship" relationship="viewControllers" id="MMd-x1-Vjr"/>
                     </connections>
                 </tabBarController>
@@ -60,6 +60,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jIe-sF-N94" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="660" y="405"/>
+        </scene>
+        <!--Navigation Controller - Write-->
+        <scene sceneID="14f-NW-mau">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="p6w-1n-1Oq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Write" image="write" id="nhu-bp-9Y1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TVR-bf-K2h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="2Ei-ch-Hnd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="znZ-va-g2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="660" y="-242"/>
         </scene>
     </scenes>
     <resources>
