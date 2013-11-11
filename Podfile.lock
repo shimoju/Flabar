@@ -1,1 +1,10 @@
+PODS:
+  - REPagedScrollView (1.0)
+
+DEPENDENCIES:
+  - REPagedScrollView (~> 1.0)
+
+SPEC CHECKSUMS:
+  REPagedScrollView: 6765bc7f2cee4e2fcc8a04c7709ef201776a9220
+
 COCOAPODS: 0.27.1
