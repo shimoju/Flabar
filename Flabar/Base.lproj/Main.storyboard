@@ -16,10 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="MVJ-kJ-Zjk" appends="YES" id="fTH-kj-II1"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Write" id="g0l-Od-2bi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="MVJ-kJ-Zjk">
+                    <connections>
+                        <action selector="backgroundTapped:" destination="vXZ-lx-hvc" id="sjX-zv-5vD"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1022" y="-242"/>
         </scene>

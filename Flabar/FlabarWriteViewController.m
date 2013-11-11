@@ -10,6 +10,8 @@
 
 @interface FlabarWriteViewController ()
 
+- (IBAction)backgroundTapped:(id)sender;
+
 @end
 
 @implementation FlabarWriteViewController
@@ -33,6 +35,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+// 背景がタップされたらキーボードを閉じる
+- (IBAction)backgroundTapped:(id)sender {
+    [self.view endEditing:YES];
 }
 
 @end
