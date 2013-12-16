@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		458BEEF7185F429200C3DC33 /* FlabarWriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458BEEF6185F429200C3DC33 /* FlabarWriteViewController.m */; };
 		45CCB73B185F38B800D619BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CCB73A185F38B800D619BC /* Foundation.framework */; };
 		45CCB73D185F38B800D619BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CCB73C185F38B800D619BC /* CoreGraphics.framework */; };
 		45CCB73F185F38B800D619BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CCB73E185F38B800D619BC /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		401E24610098494486D335C9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		458BEEF5185F429200C3DC33 /* FlabarWriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlabarWriteViewController.h; sourceTree = "<group>"; };
+		458BEEF6185F429200C3DC33 /* FlabarWriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlabarWriteViewController.m; sourceTree = "<group>"; };
 		45CCB737185F38B800D619BC /* Flabar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flabar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CCB73A185F38B800D619BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45CCB73C185F38B800D619BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				45CCB749185F38B800D619BC /* FlabarAppDelegate.h */,
 				45CCB74A185F38B800D619BC /* FlabarAppDelegate.m */,
 				45CCB74C185F38B800D619BC /* Main.storyboard */,
+				458BEEF5185F429200C3DC33 /* FlabarWriteViewController.h */,
+				458BEEF6185F429200C3DC33 /* FlabarWriteViewController.m */,
 				45CCB74F185F38B800D619BC /* FlabarViewController.h */,
 				45CCB750185F38B800D619BC /* FlabarViewController.m */,
 				45F5876A185F3BEE009441AA /* Models */,
@@ -303,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45CCB751185F38B800D619BC /* FlabarViewController.m in Sources */,
+				458BEEF7185F429200C3DC33 /* FlabarWriteViewController.m in Sources */,
 				45CCB74B185F38B800D619BC /* FlabarAppDelegate.m in Sources */,
 				45CCB747185F38B800D619BC /* main.m in Sources */,
 				45F5876D185F3C1E009441AA /* Flabar.xcdatamodeld in Sources */,
