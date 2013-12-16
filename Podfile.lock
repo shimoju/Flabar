@@ -1,10 +1,13 @@
 PODS:
+  - InfinitePagingView (0.0.1)
   - MagicalRecord (2.2)
 
 DEPENDENCIES:
+  - InfinitePagingView
   - MagicalRecord
 
 SPEC CHECKSUMS:
+  InfinitePagingView: 298d0498e0fb3e85ff1da70e460203316d1a53fa
   MagicalRecord: b1fc46c99a9749fe7fe7e6f43a89b62ef5201933
 
 COCOAPODS: 0.28.0
